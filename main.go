@@ -152,10 +152,7 @@ var (
 	letters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-"
 	roleID = "954426284455391282"
 	commands = []*discordgo.ApplicationCommand{
-		{
-			Name: "nigger",
-			Description: "sends a picture of a nigger",
-		},
+	
 		{
 			Name: "whitelist",
 			Description: "Whitelists a user",
@@ -243,17 +240,7 @@ var (
 		},
 	}
 	handler = map[string]func(*discordgo.Session, *discordgo.InteractionCreate){
-		"nigger": func(s *discordgo.Session, i *discordgo.InteractionCreate) {
-			pictures := []string{
-				"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcQtPwJF8fAAH2-5l6AckDeH7jdagYk6UXxA&usqp=CAU",
-				"https://images.ctfassets.net/81iqaqpfd8fy/73DcCVqNGrT1Gg5msXU2zk/50285a84c2b177107bdc53d674afc06c/GettyImages-1042424400.jpg?h=620&w=1440",
-				"https://media.wired.com/photos/5a56662a7c03c23a9897a225/master/w_120",
-
-
-			}
-			randomIndex := rand2.Intn(3)
-			SendMessage(i, "I found one!!", "look i found one", pictures[randomIndex])
-		},
+		
 		"unblacklist": func(s *discordgo.Session, i *discordgo.InteractionCreate) {
 			userID := i.ApplicationCommandData().Options[0].UserValue(s)
 			f, err := os.OpenFile("./data/pardoned.log",
