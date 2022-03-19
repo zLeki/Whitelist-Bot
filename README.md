@@ -13,7 +13,7 @@
 <br />
 <div align="center">
 <p align="center">
-    <img src="https://i.imgur.com/BCn6sIB.png">
+    <img src="https://i.imgur.com/BCn6sIB.png"><br>
     <a href="https://github.com/zLeki/Whitelist-Bot#usage"><strong>Explore Usage »</strong></a>
     <br />
     <br />
