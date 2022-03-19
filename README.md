@@ -41,7 +41,7 @@ This bot is good for giving users temporary roles which require a key. You can s
 
 `git clone github.com/zLeki/Whitelist-Bot`
 ### Example
-![Example](https://i.imgur.com/w9o6r86.png)
+![Example](https://cdn.discordapp.com/attachments/935264163343781932/954797891279528026/Screen_Shot_2022-03-19_at_1.45.53_PM.png)
 
 ## Contributing
 
